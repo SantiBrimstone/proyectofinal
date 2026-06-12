@@ -1,0 +1,121 @@
+title,category,description,level,date,durationMinutes,capacity,location,price,image,instructorName
+Spinning sesión 001,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-04T19:00:00,50,18,Macarena Fit,18,,Álvaro Coach Spinning
+Spinning sesión 002,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-05T11:00:00,60,9,Triana Studio,10,,Álvaro Coach Spinning
+Yoga sesión 003,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-17T09:00:00,75,23,Macarena Fit,8,,Manuel Coach Yoga
+Yoga sesión 004,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-02T17:00:00,45,14,Nervión Hub,15,,Manuel Coach Yoga
+Spinning sesión 005,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-22T09:00:00,75,22,Nervión Hub,18,,Álvaro Coach Spinning
+Boxeo sesión 006,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-17T09:00:00,50,22,Triana Studio,18,,Claudia Coach Boxeo
+Spinning sesión 007,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-29T11:00:00,45,12,Centro Sevilla,15,,Álvaro Coach Spinning
+HIIT sesión 008,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-09T19:00:00,75,20,Nervión Hub,18,,Sara Coach HIIT
+Pilates sesión 009,Pilates,"Clase de Pilates pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-27T07:00:00,50,19,Nervión Hub,15,,Paula Coach Pilates
+Boxeo sesión 010,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-01T11:00:00,45,22,Centro Sevilla,12,,Claudia Coach Boxeo
+Boxeo sesión 011,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-05T19:00:00,60,21,Nervión Hub,10,,Claudia Coach Boxeo
+HIIT sesión 012,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-12T19:00:00,45,17,Nervión Hub,10,,Sara Coach HIIT
+Spinning sesión 013,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-01T11:00:00,45,10,Triana Studio,8,,Álvaro Coach Spinning
+Spinning sesión 014,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-03T07:00:00,50,11,Triana Studio,8,,Álvaro Coach Spinning
+Fuerza sesión 015,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-01T19:00:00,60,20,Centro Sevilla,12,,Santiago Coach Fuerza
+Boxeo sesión 016,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-10T19:00:00,45,17,Centro Sevilla,12,,Claudia Coach Boxeo
+HIIT sesión 017,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-09T11:00:00,45,12,Macarena Fit,15,,Sara Coach HIIT
+Boxeo sesión 018,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-28T19:00:00,60,11,Macarena Fit,12,,Claudia Coach Boxeo
+Spinning sesión 019,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-22T09:00:00,75,17,Nervión Hub,8,,Álvaro Coach Spinning
+Boxeo sesión 020,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-10T11:00:00,45,13,Los Remedios Club,12,,Claudia Coach Boxeo
+Yoga sesión 021,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-07T19:00:00,50,12,Los Remedios Club,18,,Manuel Coach Yoga
+Fuerza sesión 022,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-10T07:00:00,45,11,Centro Sevilla,12,,Santiago Coach Fuerza
+Boxeo sesión 023,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-27T11:00:00,60,8,Nervión Hub,12,,Claudia Coach Boxeo
+Boxeo sesión 024,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-24T19:00:00,60,10,Nervión Hub,12,,Claudia Coach Boxeo
+Yoga sesión 025,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-08T11:00:00,75,22,Triana Studio,10,,Manuel Coach Yoga
+Fuerza sesión 026,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-16T07:00:00,60,24,Triana Studio,10,,Santiago Coach Fuerza
+Fuerza sesión 027,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-20T17:00:00,60,21,Centro Sevilla,8,,Santiago Coach Fuerza
+Fuerza sesión 028,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-18T11:00:00,45,13,Macarena Fit,18,,Santiago Coach Fuerza
+HIIT sesión 029,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-16T09:00:00,60,21,Centro Sevilla,8,,Sara Coach HIIT
+Spinning sesión 030,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-21T17:00:00,60,24,Los Remedios Club,8,,Álvaro Coach Spinning
+HIIT sesión 031,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-16T11:00:00,50,8,Nervión Hub,15,,Sara Coach HIIT
+Fuerza sesión 032,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-26T11:00:00,60,21,Centro Sevilla,12,,Santiago Coach Fuerza
+Yoga sesión 033,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-19T17:00:00,45,20,Centro Sevilla,10,,Manuel Coach Yoga
+Yoga sesión 034,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-04T19:00:00,50,17,Los Remedios Club,8,,Manuel Coach Yoga
+Boxeo sesión 035,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-22T19:00:00,75,24,Triana Studio,12,,Claudia Coach Boxeo
+Fuerza sesión 036,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-22T09:00:00,50,11,Macarena Fit,12,,Santiago Coach Fuerza
+Boxeo sesión 037,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-27T07:00:00,60,21,Macarena Fit,12,,Claudia Coach Boxeo
+Spinning sesión 038,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-11T07:00:00,60,13,Centro Sevilla,8,,Álvaro Coach Spinning
+HIIT sesión 039,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-26T19:00:00,60,21,Centro Sevilla,12,,Sara Coach HIIT
+Pilates sesión 040,Pilates,"Clase de Pilates pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-22T11:00:00,50,22,Nervión Hub,12,,Paula Coach Pilates
+Yoga sesión 041,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-23T19:00:00,75,19,Los Remedios Club,18,,Manuel Coach Yoga
+Pilates sesión 042,Pilates,"Clase de Pilates pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-06T17:00:00,60,12,Macarena Fit,10,,Paula Coach Pilates
+Yoga sesión 043,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-18T09:00:00,50,11,Triana Studio,15,,Manuel Coach Yoga
+Spinning sesión 044,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-07T17:00:00,50,10,Nervión Hub,12,,Álvaro Coach Spinning
+Boxeo sesión 045,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-13T07:00:00,45,19,Los Remedios Club,10,,Claudia Coach Boxeo
+Fuerza sesión 046,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-08T11:00:00,50,20,Triana Studio,12,,Santiago Coach Fuerza
+Fuerza sesión 047,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-01T09:00:00,75,20,Centro Sevilla,12,,Santiago Coach Fuerza
+Yoga sesión 048,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-16T11:00:00,60,23,Los Remedios Club,10,,Manuel Coach Yoga
+Yoga sesión 049,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-22T11:00:00,60,8,Triana Studio,8,,Manuel Coach Yoga
+Boxeo sesión 050,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-29T17:00:00,45,11,Centro Sevilla,8,,Claudia Coach Boxeo
+Fuerza sesión 051,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-04T07:00:00,45,20,Macarena Fit,10,,Santiago Coach Fuerza
+Spinning sesión 052,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-12T09:00:00,45,16,Centro Sevilla,10,,Álvaro Coach Spinning
+Boxeo sesión 053,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-07T17:00:00,75,17,Los Remedios Club,10,,Claudia Coach Boxeo
+HIIT sesión 054,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-26T17:00:00,45,11,Centro Sevilla,12,,Sara Coach HIIT
+Spinning sesión 055,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-10T09:00:00,60,22,Los Remedios Club,18,,Álvaro Coach Spinning
+Pilates sesión 056,Pilates,"Clase de Pilates pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-07T19:00:00,60,11,Centro Sevilla,18,,Paula Coach Pilates
+Fuerza sesión 057,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-21T11:00:00,60,18,Triana Studio,8,,Santiago Coach Fuerza
+Boxeo sesión 058,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-21T17:00:00,45,13,Los Remedios Club,12,,Claudia Coach Boxeo
+Spinning sesión 059,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-10T07:00:00,75,9,Centro Sevilla,12,,Álvaro Coach Spinning
+Spinning sesión 060,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-21T09:00:00,75,18,Nervión Hub,8,,Álvaro Coach Spinning
+Spinning sesión 061,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-01T19:00:00,60,15,Triana Studio,15,,Álvaro Coach Spinning
+Yoga sesión 062,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-18T09:00:00,60,14,Triana Studio,12,,Manuel Coach Yoga
+Yoga sesión 063,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-19T07:00:00,50,19,Triana Studio,10,,Manuel Coach Yoga
+Boxeo sesión 064,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-16T11:00:00,75,21,Macarena Fit,18,,Claudia Coach Boxeo
+Yoga sesión 065,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-15T09:00:00,45,18,Macarena Fit,18,,Manuel Coach Yoga
+Boxeo sesión 066,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-10T07:00:00,45,8,Los Remedios Club,12,,Claudia Coach Boxeo
+Yoga sesión 067,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-08T17:00:00,45,16,Triana Studio,12,,Manuel Coach Yoga
+Pilates sesión 068,Pilates,"Clase de Pilates pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-02T09:00:00,60,17,Triana Studio,15,,Paula Coach Pilates
+Fuerza sesión 069,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-18T07:00:00,50,13,Triana Studio,8,,Santiago Coach Fuerza
+Fuerza sesión 070,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-30T19:00:00,50,20,Triana Studio,10,,Santiago Coach Fuerza
+Boxeo sesión 071,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-03T07:00:00,60,16,Centro Sevilla,18,,Claudia Coach Boxeo
+Spinning sesión 072,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-16T09:00:00,75,22,Triana Studio,10,,Álvaro Coach Spinning
+Pilates sesión 073,Pilates,"Clase de Pilates pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-30T11:00:00,50,15,Centro Sevilla,8,,Paula Coach Pilates
+Fuerza sesión 074,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-10T11:00:00,45,23,Centro Sevilla,18,,Santiago Coach Fuerza
+Yoga sesión 075,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-18T11:00:00,45,21,Nervión Hub,12,,Manuel Coach Yoga
+HIIT sesión 076,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-22T19:00:00,50,9,Nervión Hub,15,,Sara Coach HIIT
+Spinning sesión 077,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-17T09:00:00,50,19,Triana Studio,18,,Álvaro Coach Spinning
+Fuerza sesión 078,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-11T11:00:00,75,20,Los Remedios Club,8,,Santiago Coach Fuerza
+Boxeo sesión 079,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-13T09:00:00,45,15,Triana Studio,12,,Claudia Coach Boxeo
+HIIT sesión 080,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-16T17:00:00,50,9,Los Remedios Club,8,,Sara Coach HIIT
+Pilates sesión 081,Pilates,"Clase de Pilates pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-16T19:00:00,75,16,Triana Studio,12,,Paula Coach Pilates
+Yoga sesión 082,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-04T09:00:00,75,16,Los Remedios Club,18,,Manuel Coach Yoga
+Spinning sesión 083,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-10T17:00:00,45,24,Los Remedios Club,15,,Álvaro Coach Spinning
+Fuerza sesión 084,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-12T07:00:00,60,9,Centro Sevilla,8,,Santiago Coach Fuerza
+HIIT sesión 085,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-17T11:00:00,45,21,Los Remedios Club,8,,Sara Coach HIIT
+HIIT sesión 086,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-21T17:00:00,45,8,Centro Sevilla,8,,Sara Coach HIIT
+Boxeo sesión 087,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-15T07:00:00,50,8,Nervión Hub,10,,Claudia Coach Boxeo
+Boxeo sesión 088,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-14T17:00:00,50,16,Macarena Fit,10,,Claudia Coach Boxeo
+Pilates sesión 089,Pilates,"Clase de Pilates pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-18T17:00:00,60,14,Macarena Fit,8,,Paula Coach Pilates
+Boxeo sesión 090,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-06T17:00:00,50,21,Centro Sevilla,15,,Claudia Coach Boxeo
+Boxeo sesión 091,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-20T09:00:00,60,23,Los Remedios Club,18,,Claudia Coach Boxeo
+Boxeo sesión 092,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-19T17:00:00,75,16,Nervión Hub,12,,Claudia Coach Boxeo
+Yoga sesión 093,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-05T11:00:00,60,22,Los Remedios Club,18,,Manuel Coach Yoga
+Yoga sesión 094,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-19T17:00:00,60,12,Centro Sevilla,15,,Manuel Coach Yoga
+Spinning sesión 095,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-19T07:00:00,45,9,Macarena Fit,15,,Álvaro Coach Spinning
+Boxeo sesión 096,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-13T07:00:00,45,21,Nervión Hub,18,,Claudia Coach Boxeo
+HIIT sesión 097,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-14T07:00:00,75,16,Los Remedios Club,8,,Sara Coach HIIT
+Boxeo sesión 098,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-07T11:00:00,45,19,Nervión Hub,8,,Claudia Coach Boxeo
+Yoga sesión 099,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-08T19:00:00,50,20,Centro Sevilla,18,,Manuel Coach Yoga
+Pilates sesión 100,Pilates,"Clase de Pilates pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-13T19:00:00,50,14,Los Remedios Club,12,,Paula Coach Pilates
+Spinning sesión 101,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-01T09:00:00,50,17,Nervión Hub,12,,Álvaro Coach Spinning
+Yoga sesión 102,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-23T19:00:00,60,12,Macarena Fit,10,,Manuel Coach Yoga
+Pilates sesión 103,Pilates,"Clase de Pilates pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-15T07:00:00,60,9,Nervión Hub,12,,Paula Coach Pilates
+Yoga sesión 104,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-12T07:00:00,60,23,Los Remedios Club,15,,Manuel Coach Yoga
+Spinning sesión 105,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-03T17:00:00,75,24,Los Remedios Club,12,,Álvaro Coach Spinning
+Spinning sesión 106,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-23T11:00:00,75,11,Centro Sevilla,15,,Álvaro Coach Spinning
+Pilates sesión 107,Pilates,"Clase de Pilates pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-23T11:00:00,50,9,Triana Studio,12,,Paula Coach Pilates
+Fuerza sesión 108,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-09T19:00:00,45,8,Centro Sevilla,18,,Santiago Coach Fuerza
+Yoga sesión 109,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-03T11:00:00,75,22,Centro Sevilla,18,,Manuel Coach Yoga
+Fuerza sesión 110,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-07-20T11:00:00,75,11,Centro Sevilla,10,,Santiago Coach Fuerza
+HIIT sesión 111,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-08T09:00:00,50,13,Macarena Fit,15,,Sara Coach HIIT
+Fuerza sesión 112,Fuerza,"Clase de Fuerza pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-07-08T09:00:00,75,21,Nervión Hub,8,,Santiago Coach Fuerza
+HIIT sesión 113,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-11T11:00:00,45,22,Centro Sevilla,8,,Sara Coach HIIT
+Yoga sesión 114,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-30T11:00:00,45,14,Los Remedios Club,10,,Manuel Coach Yoga
+Spinning sesión 115,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-06-14T19:00:00,50,13,Centro Sevilla,8,,Álvaro Coach Spinning
+Boxeo sesión 116,Boxeo,"Clase de Boxeo pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-27T09:00:00,75,19,Nervión Hub,18,,Claudia Coach Boxeo
+HIIT sesión 117,HIIT,"Clase de HIIT pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-08T07:00:00,60,21,Macarena Fit,10,,Sara Coach HIIT
+Yoga sesión 118,Yoga,"Clase de Yoga pensada para mejorar técnica, energía y constancia semanal.",Inicial,2026-06-15T19:00:00,45,23,Macarena Fit,8,,Manuel Coach Yoga
+Spinning sesión 119,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Avanzado,2026-06-12T11:00:00,45,24,Los Remedios Club,10,,Álvaro Coach Spinning
+Spinning sesión 120,Spinning,"Clase de Spinning pensada para mejorar técnica, energía y constancia semanal.",Intermedio,2026-07-02T07:00:00,45,20,Los Remedios Club,12,,Álvaro Coach Spinning
