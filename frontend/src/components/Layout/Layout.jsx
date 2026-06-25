@@ -10,11 +10,28 @@ export default function Layout() {
       <header className="site-header">
         <Link to="/" className="brand"><Dumbbell size={26} /> ReservaFit</Link>
         <nav className="nav">
-          <NavLink to="/classes">Clases</NavLink>
-          {user && <NavLink to="/dashboard">Mis reservas</NavLink>}
-          {isAdmin && <NavLink to="/admin">Admin</NavLink>}
-          {user ? <button className="ghost" onClick={logout}>Salir</button> : <NavLink to="/login">Entrar</NavLink>}
-        </nav>
+  <NavLink to="/classes">Clases</NavLink>
+
+  {user && <NavLink to="/dashboard">Mis reservas</NavLink>}
+
+  {user && <NavLink to="/profile">Mi perfil</NavLink>}
+
+  {isAdmin && <NavLink to="/admin">Admin</NavLink>}
+
+  {user?.avatar && (
+    <img
+      src={user.avatar}
+      alt={user.name}
+      className="navbar-avatar"
+    />
+  )}
+
+  {user ? (
+    <button className="ghost" onClick={logout}>Salir</button>
+  ) : (
+    <NavLink to="/login">Entrar</NavLink>
+  )}
+</nav>
       </header>
       <main className="main"><Outlet /></main>
       <footer className="footer">ReservaFit</footer>

@@ -15,8 +15,7 @@ export default function Login() {
       <input placeholder="Email" value={form.email} onChange={e => setForm({ ...form, email: e.target.value })} />
       <input placeholder="Contraseña" type="password" value={form.password} onChange={e => setForm({ ...form, password: e.target.value })} />
       <button className="button" disabled={loading}>Iniciar sesión</button>
-      <p>Admin demo: admin@reservafit.com / 123456</p>
-      <Link to="/register">Crear cuenta</Link>
+      <Link to="/register" className="button-outline">Crear cuenta</Link>
     </form>
   );
 }

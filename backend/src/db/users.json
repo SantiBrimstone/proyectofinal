@@ -486,5 +486,50 @@
     "password": "123456",
     "role": "user",
     "avatar": ""
+  },
+  {
+    "id": "user-1782390313925",
+    "name": "sofia",
+    "email": "sofia@gmail.com",
+    "password": "$2a$10$171BzJzVD1mZPQdKD5OnjOlBDtzdV3KpP9z.oCFCVE2HynCTBRUTa",
+    "role": "user",
+    "avatar": "",
+    "createdAt": "2026-06-25T12:25:13.925Z"
+  },
+  {
+    "id": "user-1782390845131",
+    "name": "sofos",
+    "email": "sofos@gmail.com",
+    "password": "$2a$10$c4xZW6B6O0IziKOEWXqia.0e9fhOYKG36QLhs0BDzDLweAFQxebSa",
+    "role": "user",
+    "avatar": "",
+    "createdAt": "2026-06-25T12:34:05.131Z"
+  },
+  {
+    "id": "user-1782391055913",
+    "name": "pendeja",
+    "email": "pendeja@gmail.com",
+    "password": "$2a$10$M85FTxVDLACnl/cjYFInHeJKt1tqjAsqA6gTY/TA2IkQFBv5Ii1SG",
+    "role": "user",
+    "avatar": "",
+    "createdAt": "2026-06-25T12:37:35.913Z"
+  },
+  {
+    "id": "user-1782391313681",
+    "name": "fiebre",
+    "email": "fiebre@gmail.com",
+    "password": "$2a$10$Lgyb5w2Qch3JtmCrMXcstOhN8RIh/.M4r1.Ez0aL97B5v6euKozJW",
+    "role": "user",
+    "avatar": "",
+    "createdAt": "2026-06-25T12:41:53.681Z"
+  },
+  {
+    "id": "user-1782393498659",
+    "name": "sofiaas",
+    "email": "sofiaas@gmail.com",
+    "password": "$2a$10$9glzmi8Gd14NHY5MWu2w4.Az5bJ14Yz7sOCSFePaow9OKd/uPpEWO",
+    "role": "user",
+    "avatar": "https://res.cloudinary.com/dik71xbv3/image/upload/v1782393501/reservafit/tt1uhhzkhpx9w3sl5khq.jpg",
+    "createdAt": "2026-06-25T13:18:18.659Z"
   }
 ]

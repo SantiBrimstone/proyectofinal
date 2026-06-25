@@ -698,5 +698,13 @@
     "classId": "class-118",
     "status": "confirmed",
     "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-1782393640852",
+    "userId": "user-1782393498659",
+    "classId": "class-20",
+    "status": "cancelled",
+    "notes": "",
+    "createdAt": "2026-06-25T13:20:40.852Z"
   }
 ]

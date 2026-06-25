@@ -61,8 +61,32 @@ const deleteUser = (req, res, next) => {
   }
 };
 
+const updateProfile = (req, res, next) => {
+  try {
+    const users = read('users.json');
+    const index = users.findIndex(user => user.id === req.user.id);
+
+    if (index === -1) {
+      return res.status(404).json({ message: 'Usuario no encontrado' });
+    }
+
+    users[index] = {
+      ...users[index],
+      name: req.body.name || users[index].name,
+      avatar: req.file?.path || users[index].avatar,
+    };
+
+    write('users.json', users);
+
+    res.json(publicUser(users[index]));
+  } catch (error) {
+    next(error);
+  }
+};
+
 module.exports = {
   getUsers,
   updateRole,
   deleteUser,
+  updateProfile
 };

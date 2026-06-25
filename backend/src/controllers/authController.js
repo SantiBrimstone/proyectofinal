@@ -28,6 +28,8 @@ const register = async (req, res, next) => {
 
     const hashedPassword = await bcrypt.hash(password, 10);
 
+    console.log('FILE:', req.file);
+
     const user = {
       id: `user-${Date.now()}`,
       name,
