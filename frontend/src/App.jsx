@@ -8,6 +8,7 @@ import Login from './pages/Login/Login.jsx';
 import Register from './pages/Register/Register.jsx';
 import Dashboard from './pages/Dashboard/Dashboard.jsx';
 import Admin from './pages/Admin/Admin.jsx';
+import React from 'react';
 
 export default function App() {
   return (

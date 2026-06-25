@@ -1,6 +1,7 @@
 import api from '../../api/client';
 import Spinner from '../../components/Spinner/Spinner.jsx';
 import { useFetch } from '../../hooks/useFetch.js';
+import React from 'react';
 
 export default function Admin() {
   const { data: users = [], loading, error } = useFetch(async () => (await api.get('/users')).data, []);

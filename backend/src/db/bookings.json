@@ -1,0 +1,702 @@
+[
+  {
+    "id": "booking-1",
+    "userId": "user-39",
+    "classId": "class-55",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-2",
+    "userId": "user-25",
+    "classId": "class-115",
+    "status": "cancelled",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-3",
+    "userId": "user-51",
+    "classId": "class-8",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-4",
+    "userId": "user-12",
+    "classId": "class-32",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-5",
+    "userId": "user-51",
+    "classId": "class-81",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-6",
+    "userId": "user-19",
+    "classId": "class-40",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-7",
+    "userId": "user-22",
+    "classId": "class-101",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-8",
+    "userId": "user-6",
+    "classId": "class-94",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-9",
+    "userId": "user-17",
+    "classId": "class-8",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-10",
+    "userId": "user-45",
+    "classId": "class-116",
+    "status": "cancelled",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-11",
+    "userId": "user-36",
+    "classId": "class-112",
+    "status": "cancelled",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-12",
+    "userId": "user-47",
+    "classId": "class-62",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-13",
+    "userId": "user-44",
+    "classId": "class-83",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-14",
+    "userId": "user-39",
+    "classId": "class-109",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-15",
+    "userId": "user-11",
+    "classId": "class-9",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-16",
+    "userId": "user-11",
+    "classId": "class-50",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-17",
+    "userId": "user-40",
+    "classId": "class-94",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-18",
+    "userId": "user-46",
+    "classId": "class-95",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-19",
+    "userId": "user-48",
+    "classId": "class-112",
+    "status": "cancelled",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-20",
+    "userId": "user-41",
+    "classId": "class-46",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-21",
+    "userId": "user-47",
+    "classId": "class-98",
+    "status": "cancelled",
+    "notes": ""
+  },
+  {
+    "id": "booking-22",
+    "userId": "user-13",
+    "classId": "class-11",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-23",
+    "userId": "user-42",
+    "classId": "class-14",
+    "status": "cancelled",
+    "notes": ""
+  },
+  {
+    "id": "booking-24",
+    "userId": "user-39",
+    "classId": "class-64",
+    "status": "cancelled",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-25",
+    "userId": "user-25",
+    "classId": "class-40",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-26",
+    "userId": "user-42",
+    "classId": "class-72",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-27",
+    "userId": "user-52",
+    "classId": "class-96",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-28",
+    "userId": "user-22",
+    "classId": "class-102",
+    "status": "cancelled",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-29",
+    "userId": "user-23",
+    "classId": "class-5",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-30",
+    "userId": "user-17",
+    "classId": "class-15",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-31",
+    "userId": "user-17",
+    "classId": "class-24",
+    "status": "cancelled",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-32",
+    "userId": "user-39",
+    "classId": "class-90",
+    "status": "cancelled",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-33",
+    "userId": "user-51",
+    "classId": "class-88",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-34",
+    "userId": "user-50",
+    "classId": "class-112",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-35",
+    "userId": "user-28",
+    "classId": "class-21",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-36",
+    "userId": "user-10",
+    "classId": "class-8",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-37",
+    "userId": "user-29",
+    "classId": "class-32",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-38",
+    "userId": "user-35",
+    "classId": "class-41",
+    "status": "cancelled",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-39",
+    "userId": "user-11",
+    "classId": "class-15",
+    "status": "cancelled",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-40",
+    "userId": "user-8",
+    "classId": "class-15",
+    "status": "cancelled",
+    "notes": ""
+  },
+  {
+    "id": "booking-41",
+    "userId": "user-43",
+    "classId": "class-63",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-42",
+    "userId": "user-48",
+    "classId": "class-2",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-43",
+    "userId": "user-34",
+    "classId": "class-15",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-44",
+    "userId": "user-55",
+    "classId": "class-109",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-45",
+    "userId": "user-32",
+    "classId": "class-57",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-46",
+    "userId": "user-3",
+    "classId": "class-98",
+    "status": "cancelled",
+    "notes": ""
+  },
+  {
+    "id": "booking-47",
+    "userId": "user-36",
+    "classId": "class-64",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-48",
+    "userId": "user-60",
+    "classId": "class-9",
+    "status": "cancelled",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-49",
+    "userId": "user-45",
+    "classId": "class-36",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-50",
+    "userId": "user-21",
+    "classId": "class-47",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-51",
+    "userId": "user-40",
+    "classId": "class-36",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-52",
+    "userId": "user-56",
+    "classId": "class-94",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-53",
+    "userId": "user-60",
+    "classId": "class-14",
+    "status": "cancelled",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-54",
+    "userId": "user-24",
+    "classId": "class-65",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-55",
+    "userId": "user-5",
+    "classId": "class-4",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-56",
+    "userId": "user-4",
+    "classId": "class-7",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-57",
+    "userId": "user-36",
+    "classId": "class-62",
+    "status": "cancelled",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-58",
+    "userId": "user-38",
+    "classId": "class-13",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-59",
+    "userId": "user-58",
+    "classId": "class-110",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-60",
+    "userId": "user-3",
+    "classId": "class-4",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-61",
+    "userId": "user-41",
+    "classId": "class-82",
+    "status": "cancelled",
+    "notes": ""
+  },
+  {
+    "id": "booking-62",
+    "userId": "user-55",
+    "classId": "class-82",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-63",
+    "userId": "user-2",
+    "classId": "class-7",
+    "status": "cancelled",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-64",
+    "userId": "user-23",
+    "classId": "class-115",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-65",
+    "userId": "user-20",
+    "classId": "class-119",
+    "status": "cancelled",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-66",
+    "userId": "user-6",
+    "classId": "class-39",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-67",
+    "userId": "user-38",
+    "classId": "class-81",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-68",
+    "userId": "user-53",
+    "classId": "class-118",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-69",
+    "userId": "user-14",
+    "classId": "class-53",
+    "status": "cancelled",
+    "notes": ""
+  },
+  {
+    "id": "booking-70",
+    "userId": "user-2",
+    "classId": "class-120",
+    "status": "cancelled",
+    "notes": ""
+  },
+  {
+    "id": "booking-71",
+    "userId": "user-8",
+    "classId": "class-34",
+    "status": "cancelled",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-72",
+    "userId": "user-44",
+    "classId": "class-2",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-73",
+    "userId": "user-19",
+    "classId": "class-9",
+    "status": "cancelled",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-74",
+    "userId": "user-28",
+    "classId": "class-114",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-75",
+    "userId": "user-2",
+    "classId": "class-44",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-76",
+    "userId": "user-32",
+    "classId": "class-99",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-77",
+    "userId": "user-20",
+    "classId": "class-39",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-78",
+    "userId": "user-60",
+    "classId": "class-110",
+    "status": "cancelled",
+    "notes": ""
+  },
+  {
+    "id": "booking-79",
+    "userId": "user-35",
+    "classId": "class-49",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-80",
+    "userId": "user-29",
+    "classId": "class-67",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-81",
+    "userId": "user-37",
+    "classId": "class-97",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-82",
+    "userId": "user-11",
+    "classId": "class-100",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-83",
+    "userId": "user-13",
+    "classId": "class-79",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-84",
+    "userId": "user-60",
+    "classId": "class-120",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-85",
+    "userId": "user-20",
+    "classId": "class-27",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-86",
+    "userId": "user-31",
+    "classId": "class-97",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-87",
+    "userId": "user-17",
+    "classId": "class-10",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-88",
+    "userId": "user-39",
+    "classId": "class-79",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-89",
+    "userId": "user-27",
+    "classId": "class-64",
+    "status": "confirmed",
+    "notes": ""
+  },
+  {
+    "id": "booking-90",
+    "userId": "user-52",
+    "classId": "class-24",
+    "status": "cancelled",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-91",
+    "userId": "user-19",
+    "classId": "class-41",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-92",
+    "userId": "user-37",
+    "classId": "class-3",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-93",
+    "userId": "user-45",
+    "classId": "class-100",
+    "status": "confirmed",
+    "notes": "Prefiere esterilla cerca de la puerta"
+  },
+  {
+    "id": "booking-94",
+    "userId": "user-6",
+    "classId": "class-97",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-95",
+    "userId": "user-58",
+    "classId": "class-47",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-96",
+    "userId": "user-53",
+    "classId": "class-31",
+    "status": "cancelled",
+    "notes": ""
+  },
+  {
+    "id": "booking-97",
+    "userId": "user-60",
+    "classId": "class-118",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  },
+  {
+    "id": "booking-98",
+    "userId": "user-2",
+    "classId": "class-27",
+    "status": "confirmed",
+    "notes": "Sin lesiones declaradas"
+  },
+  {
+    "id": "booking-99",
+    "userId": "user-46",
+    "classId": "class-8",
+    "status": "cancelled",
+    "notes": ""
+  },
+  {
+    "id": "booking-100",
+    "userId": "user-40",
+    "classId": "class-118",
+    "status": "confirmed",
+    "notes": "Primera vez en esta disciplina"
+  }
+]

@@ -1,6 +1,7 @@
 import { Link, NavLink, Outlet } from 'react-router-dom';
 import { Dumbbell } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext.jsx';
+import React from 'react';
 
 export default function Layout() {
   const { user, isAdmin, logout } = useAuth();
@@ -16,7 +17,7 @@ export default function Layout() {
         </nav>
       </header>
       <main className="main"><Outlet /></main>
-      <footer className="footer">Proyecto FullStack final · Node.js · React · MongoDB</footer>
+      <footer className="footer">ReservaFit</footer>
     </>
   );
 }

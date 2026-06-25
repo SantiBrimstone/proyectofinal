@@ -1,28 +1,68 @@
-const User = require('../models/User');
+const { read, write } = require('../utils/jsonDb');
 
-const getUsers = async (_req, res, next) => {
+const publicUser = user => ({
+  _id: user.id,
+  id: user.id,
+  name: user.name,
+  email: user.email,
+  role: user.role,
+  avatar: user.avatar,
+  createdAt: user.createdAt,
+});
+
+const getUsers = (_req, res, next) => {
   try {
-    res.json(await User.find().select('-password').sort({ createdAt: -1 }));
-  } catch (error) { next(error); }
+    const users = read('users.json')
+      .map(publicUser)
+      .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
+    res.json(users);
+  } catch (error) {
+    next(error);
+  }
 };
 
-const updateRole = async (req, res, next) => {
+const updateRole = (req, res, next) => {
   try {
-    const user = await User.findByIdAndUpdate(req.params.id, { role: req.body.role }, { new: true }).select('-password');
-    if (!user) return res.status(404).json({ message: 'Usuario no encontrado' });
-    res.json(user);
-  } catch (error) { next(error); }
+    const users = read('users.json');
+    const index = users.findIndex(user => user.id === req.params.id || user._id === req.params.id);
+
+    if (index === -1) {
+      return res.status(404).json({ message: 'Usuario no encontrado' });
+    }
+
+    users[index].role = req.body.role;
+    write('users.json', users);
+
+    res.json(publicUser(users[index]));
+  } catch (error) {
+    next(error);
+  }
 };
 
-const deleteUser = async (req, res, next) => {
+const deleteUser = (req, res, next) => {
   try {
-    if (req.user.role !== 'admin' && req.user._id.toString() !== req.params.id) {
+    if (req.user.role !== 'admin' && req.user.id !== req.params.id) {
       return res.status(403).json({ message: 'No puedes eliminar otra cuenta' });
     }
-    const user = await User.findByIdAndDelete(req.params.id);
-    if (!user) return res.status(404).json({ message: 'Usuario no encontrado' });
+
+    const users = read('users.json');
+    const filtered = users.filter(user => user.id !== req.params.id && user._id !== req.params.id);
+
+    if (filtered.length === users.length) {
+      return res.status(404).json({ message: 'Usuario no encontrado' });
+    }
+
+    write('users.json', filtered);
+
     res.json({ message: 'Usuario eliminado' });
-  } catch (error) { next(error); }
+  } catch (error) {
+    next(error);
+  }
 };
 
-module.exports = { getUsers, updateRole, deleteUser };
+module.exports = {
+  getUsers,
+  updateRole,
+  deleteUser,
+};

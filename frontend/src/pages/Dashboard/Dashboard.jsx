@@ -2,6 +2,7 @@ import api from '../../api/client';
 import BookingCard from '../../components/BookingCard/BookingCard.jsx';
 import Spinner from '../../components/Spinner/Spinner.jsx';
 import { useFetch } from '../../hooks/useFetch.js';
+import React from 'react';
 
 export default function Dashboard() {
   const { data = [], loading, error, reload } = useFetch(async () => (await api.get('/bookings/mine')).data, []);

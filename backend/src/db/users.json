@@ -1,0 +1,490 @@
+[
+  {
+    "id": "user-1",
+    "name": "Admin ReservaFit",
+    "email": "admin@reservafit.com",
+    "password": "123456",
+    "role": "admin",
+    "avatar": ""
+  },
+  {
+    "id": "user-2",
+    "name": "Elena Ruiz",
+    "email": "user1@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-3",
+    "name": "Elena Sánchez",
+    "email": "user2@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-4",
+    "name": "Manuel García",
+    "email": "user3@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-5",
+    "name": "Laura García",
+    "email": "user4@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-6",
+    "name": "Adrián Díaz",
+    "email": "user5@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-7",
+    "name": "Carlos Hernández",
+    "email": "user6@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-8",
+    "name": "Paula Ruiz",
+    "email": "user7@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-9",
+    "name": "Carlos Muñoz",
+    "email": "user8@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-10",
+    "name": "Carlos López",
+    "email": "user9@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-11",
+    "name": "Claudia Moreno",
+    "email": "user10@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-12",
+    "name": "Rocío Navarro",
+    "email": "user11@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-13",
+    "name": "Hugo Navarro",
+    "email": "user12@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-14",
+    "name": "Pablo Moreno",
+    "email": "user13@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-15",
+    "name": "Pablo Navarro",
+    "email": "user14@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-16",
+    "name": "Marta Díaz",
+    "email": "user15@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-17",
+    "name": "Sara Moreno",
+    "email": "user16@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-18",
+    "name": "Daniel Moreno",
+    "email": "user17@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-19",
+    "name": "Daniel Díaz",
+    "email": "user18@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-20",
+    "name": "Claudia Sánchez",
+    "email": "user19@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-21",
+    "name": "Nerea Hernández",
+    "email": "user20@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-22",
+    "name": "Hugo Jiménez",
+    "email": "user21@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-23",
+    "name": "Marta Hernández",
+    "email": "user22@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-24",
+    "name": "Marta Hernández",
+    "email": "user23@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-25",
+    "name": "Hugo Martín",
+    "email": "user24@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-26",
+    "name": "Iván Hernández",
+    "email": "user25@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-27",
+    "name": "Sara Torres",
+    "email": "user26@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-28",
+    "name": "Pablo Martín",
+    "email": "user27@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-29",
+    "name": "Hugo López",
+    "email": "user28@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-30",
+    "name": "Hugo Jiménez",
+    "email": "user29@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-31",
+    "name": "Javier Martín",
+    "email": "user30@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-32",
+    "name": "Iván Navarro",
+    "email": "user31@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-33",
+    "name": "Laura Hernández",
+    "email": "user32@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-34",
+    "name": "Sara Sánchez",
+    "email": "user33@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-35",
+    "name": "Pablo Torres",
+    "email": "user34@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-36",
+    "name": "Elena Díaz",
+    "email": "user35@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-37",
+    "name": "Pablo Torres",
+    "email": "user36@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-38",
+    "name": "Manuel Muñoz",
+    "email": "user37@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-39",
+    "name": "Adrián Sánchez",
+    "email": "user38@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-40",
+    "name": "Lucía Martín",
+    "email": "user39@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-41",
+    "name": "Rocío García",
+    "email": "user40@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-42",
+    "name": "Nerea Moreno",
+    "email": "user41@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-43",
+    "name": "Adrián Moreno",
+    "email": "user42@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-44",
+    "name": "Sara Navarro",
+    "email": "user43@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-45",
+    "name": "Laura López",
+    "email": "user44@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-46",
+    "name": "Claudia Díaz",
+    "email": "user45@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-47",
+    "name": "Nerea Sánchez",
+    "email": "user46@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-48",
+    "name": "Lucía Ruiz",
+    "email": "user47@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-49",
+    "name": "Claudia Torres",
+    "email": "user48@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-50",
+    "name": "Laura Jiménez",
+    "email": "user49@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-51",
+    "name": "Laura Torres",
+    "email": "user50@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-52",
+    "name": "Claudia Martín",
+    "email": "user51@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-53",
+    "name": "Adrián Ruiz",
+    "email": "user52@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-54",
+    "name": "Paula Navarro",
+    "email": "user53@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-55",
+    "name": "Rocío Hernández",
+    "email": "user54@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-56",
+    "name": "Hugo Ruiz",
+    "email": "user55@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-57",
+    "name": "Paula Torres",
+    "email": "user56@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-58",
+    "name": "Santiago Sánchez",
+    "email": "user57@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-59",
+    "name": "Claudia Moreno",
+    "email": "user58@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-60",
+    "name": "Santiago Ruiz",
+    "email": "user59@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  },
+  {
+    "id": "user-61",
+    "name": "Lucía Jiménez",
+    "email": "user60@reservafit.com",
+    "password": "123456",
+    "role": "user",
+    "avatar": ""
+  }
+]

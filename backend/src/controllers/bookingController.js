@@ -1,49 +1,127 @@
-const Booking = require('../models/Booking');
-const FitnessClass = require('../models/FitnessClass');
+const { read, write } = require('../utils/jsonDb');
 
-const createBooking = async (req, res, next) => {
+const populateBooking = booking => {
+  const users = read('users.json');
+  const classes = read('classes.json');
+  const instructors = read('instructors.json');
+
+  const fitnessClass = classes.find(item => item.id === booking.fitnessClass || item.id === booking.classId);
+  const instructor = fitnessClass
+    ? instructors.find(item => item.id === fitnessClass.instructorId)
+    : null;
+
+  return {
+    ...booking,
+    user: users.find(user => user.id === booking.userId),
+    fitnessClass: fitnessClass
+      ? { ...fitnessClass, instructor }
+      : null,
+  };
+};
+
+const createBooking = (req, res, next) => {
   try {
-    const { fitnessClass, notes } = req.body;
-    const targetClass = await FitnessClass.findById(fitnessClass);
-    if (!targetClass) return res.status(404).json({ message: 'Clase no encontrada' });
+    const { fitnessClass, classId, notes } = req.body;
+    const selectedClassId = fitnessClass || classId;
 
-    const confirmed = await Booking.countDocuments({ fitnessClass, status: 'confirmed' });
-    if (confirmed >= targetClass.capacity) return res.status(400).json({ message: 'Clase completa' });
+    const classes = read('classes.json');
+    const bookings = read('bookings.json');
 
-    const booking = await Booking.create({ user: req.user._id, fitnessClass, notes });
-    res.status(201).json(await booking.populate('fitnessClass'));
+    const targetClass = classes.find(item => item.id === selectedClassId || item._id === selectedClassId);
+
+    if (!targetClass) {
+      return res.status(404).json({ message: 'Clase no encontrada' });
+    }
+
+    const alreadyExists = bookings.find(
+      booking =>
+        booking.userId === req.user.id &&
+        (booking.classId === selectedClassId || booking.fitnessClass === selectedClassId) &&
+        booking.status !== 'cancelled'
+    );
+
+    if (alreadyExists) {
+      return res.status(409).json({ message: 'Ya tienes una reserva para esta clase' });
+    }
+
+    const confirmed = bookings.filter(
+      booking =>
+        (booking.classId === selectedClassId || booking.fitnessClass === selectedClassId) &&
+        booking.status === 'confirmed'
+    ).length;
+
+    if (confirmed >= Number(targetClass.capacity)) {
+      return res.status(400).json({ message: 'Clase completa' });
+    }
+
+    const booking = {
+      id: `booking-${Date.now()}`,
+      userId: req.user.id,
+      classId: selectedClassId,
+      status: 'confirmed',
+      notes: notes || '',
+      createdAt: new Date().toISOString(),
+    };
+
+    bookings.push(booking);
+    write('bookings.json', bookings);
+
+    res.status(201).json(populateBooking(booking));
   } catch (error) {
-    if (error.code === 11000) return res.status(409).json({ message: 'Ya tienes una reserva para esta clase' });
     next(error);
   }
 };
 
-const getMyBookings = async (req, res, next) => {
+const getMyBookings = (req, res, next) => {
   try {
-    const bookings = await Booking.find({ user: req.user._id })
-      .populate({ path: 'fitnessClass', populate: { path: 'instructor' } })
-      .sort({ createdAt: -1 });
+    const bookings = read('bookings.json')
+      .filter(booking => booking.userId === req.user.id)
+      .map(populateBooking)
+      .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
     res.json(bookings);
-  } catch (error) { next(error); }
+  } catch (error) {
+    next(error);
+  }
 };
 
-const cancelBooking = async (req, res, next) => {
+const cancelBooking = (req, res, next) => {
   try {
-    const booking = await Booking.findOneAndUpdate(
-      { _id: req.params.id, user: req.user._id },
-      { status: 'cancelled' },
-      { new: true }
+    const bookings = read('bookings.json');
+    const index = bookings.findIndex(
+      booking =>
+        (booking.id === req.params.id || booking._id === req.params.id) &&
+        booking.userId === req.user.id
     );
-    if (!booking) return res.status(404).json({ message: 'Reserva no encontrada' });
-    res.json(booking);
-  } catch (error) { next(error); }
+
+    if (index === -1) {
+      return res.status(404).json({ message: 'Reserva no encontrada' });
+    }
+
+    bookings[index].status = 'cancelled';
+    write('bookings.json', bookings);
+
+    res.json(bookings[index]);
+  } catch (error) {
+    next(error);
+  }
 };
 
-const getAllBookings = async (_req, res, next) => {
+const getAllBookings = (_req, res, next) => {
   try {
-    const bookings = await Booking.find().populate('user', 'name email').populate('fitnessClass', 'title date');
+    const bookings = read('bookings.json')
+      .map(populateBooking)
+      .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
     res.json(bookings);
-  } catch (error) { next(error); }
+  } catch (error) {
+    next(error);
+  }
 };
 
-module.exports = { createBooking, getMyBookings, cancelBooking, getAllBookings };
+module.exports = {
+  createBooking,
+  getMyBookings,
+  cancelBooking,
+  getAllBookings,
+};

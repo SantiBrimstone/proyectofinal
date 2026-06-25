@@ -3,6 +3,7 @@ import api from '../../api/client';
 import Spinner from '../../components/Spinner/Spinner.jsx';
 import { useAuth } from '../../context/AuthContext.jsx';
 import { useFetch } from '../../hooks/useFetch.js';
+import React from 'react';
 
 export default function ClassDetail() {
   const { id } = useParams();

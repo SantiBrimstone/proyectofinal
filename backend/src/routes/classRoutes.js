@@ -1,12 +1,20 @@
-const router = require('express').Router();
-const { getClasses, getClassById, createClass, updateClass, deleteClass } = require('../controllers/classController');
-const { protect, adminOnly } = require('../middleware/authMiddleware');
-const upload = require('../middleware/uploadMiddleware');
+const express = require('express');
+const {
+  getClasses,
+  getClassById,
+  createClass,
+  updateClass,
+  deleteClass,
+} = require('../controllers/classController');
+
+const { protect, admin } = require('../middleware/authMiddleware');
+
+const router = express.Router();
 
 router.get('/', getClasses);
 router.get('/:id', getClassById);
-router.post('/', protect, adminOnly, upload.single('image'), createClass);
-router.put('/:id', protect, adminOnly, upload.single('image'), updateClass);
-router.delete('/:id', protect, adminOnly, deleteClass);
+router.post('/', protect, admin, createClass);
+router.put('/:id', protect, admin, updateClass);
+router.delete('/:id', protect, admin, deleteClass);
 
 module.exports = router;

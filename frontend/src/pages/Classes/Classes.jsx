@@ -3,6 +3,7 @@ import ClassCard from '../../components/ClassCard/ClassCard.jsx';
 import Spinner from '../../components/Spinner/Spinner.jsx';
 import { useFetch } from '../../hooks/useFetch.js';
 import { useClassFilters } from '../../hooks/useClassFilters.js';
+import React from 'react';
 
 export default function Classes() {
   const { data = [], loading, error } = useFetch(async () => (await api.get('/classes')).data, []);
@@ -27,7 +28,11 @@ export default function Classes() {
         </select>
         <button className="ghost" onClick={resetFilters}>Limpiar</button>
       </div>
-      <div className="grid">{filteredClasses.map(item => <ClassCard key={item._id} item={item} />)}</div>
+      <div className="grid">
+  {filteredClasses.map(item => (
+    <ClassCard key={item.id || item._id} item={item} />
+  ))}
+</div>
     </section>
   );
 }

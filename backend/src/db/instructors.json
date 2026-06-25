@@ -1,0 +1,56 @@
+[
+  {
+    "id": "instructor-1",
+    "fullName": "Manuel Coach Yoga",
+    "specialty": "Yoga",
+    "bio": "Especialista en Yoga con enfoque en progresión segura y motivación.",
+    "yearsExperience": 12,
+    "rating": 4.4,
+    "image": ""
+  },
+  {
+    "id": "instructor-2",
+    "fullName": "Sara Coach HIIT",
+    "specialty": "HIIT",
+    "bio": "Especialista en HIIT con enfoque en progresión segura y motivación.",
+    "yearsExperience": 12,
+    "rating": 4.8,
+    "image": ""
+  },
+  {
+    "id": "instructor-3",
+    "fullName": "Paula Coach Pilates",
+    "specialty": "Pilates",
+    "bio": "Especialista en Pilates con enfoque en progresión segura y motivación.",
+    "yearsExperience": 11,
+    "rating": 4.9,
+    "image": ""
+  },
+  {
+    "id": "instructor-4",
+    "fullName": "Claudia Coach Boxeo",
+    "specialty": "Boxeo",
+    "bio": "Especialista en Boxeo con enfoque en progresión segura y motivación.",
+    "yearsExperience": 8,
+    "rating": 4.3,
+    "image": ""
+  },
+  {
+    "id": "instructor-5",
+    "fullName": "Álvaro Coach Spinning",
+    "specialty": "Spinning",
+    "bio": "Especialista en Spinning con enfoque en progresión segura y motivación.",
+    "yearsExperience": 3,
+    "rating": 4.4,
+    "image": ""
+  },
+  {
+    "id": "instructor-6",
+    "fullName": "Santiago Coach Fuerza",
+    "specialty": "Fuerza",
+    "bio": "Especialista en Fuerza con enfoque en progresión segura y motivación.",
+    "yearsExperience": 3,
+    "rating": 5,
+    "image": ""
+  }
+]
