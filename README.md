@@ -1,223 +1,236 @@
-# ReservaFit - Proyecto FullStack Final
+# 🏋️ ReservaFit
 
-ReservaFit es una aplicación FullStack para centralizar reservas de clases deportivas locales. Está pensada para usuarios que quieren descubrir actividades cerca de ellos y para pequeños centros/instructores que necesitan gestionar horarios, cupos y reservas sin depender de mensajes sueltos.
+ReservaFit es una aplicación Full Stack desarrollada como proyecto final del Máster Full Stack.
 
-## Público objetivo
+Su objetivo es ofrecer una plataforma sencilla para la gestión y reserva de clases deportivas, permitiendo a los usuarios descubrir actividades, reservar plazas y administrar sus reservas, mientras que los administradores pueden gestionar el contenido de la plataforma.
 
-- Personas que buscan entrenar de forma flexible.
-- Centros deportivos pequeños, estudios boutique e instructores independientes.
-- Administradores que necesitan consultar usuarios, clases y reservas.
+---
 
-## Problema que resuelve
+# 📖 Objetivos del proyecto
 
-Muchos centros gestionan reservas por WhatsApp, llamadas o formularios poco conectados. Esto provoca duplicidades, falta de control de aforo y mala experiencia para el usuario. ReservaFit ofrece un catálogo filtrable, detalle de clase, reserva autenticada y panel de administración.
+El proyecto ha sido desarrollado utilizando todas las tecnologías vistas durante el curso, poniendo en práctica conceptos de:
 
-## Tecnologías
+- Arquitectura Frontend con React
+- Desarrollo de APIs REST con Node.js y Express
+- Autenticación mediante JWT
+- Gestión de usuarios y roles
+- Lectura de archivos CSV y generación automática de datos
+- Cloudinary para almacenamiento de imágenes
+- Componentización y reutilización de código
+- Diseño responsive y buena experiencia de usuario (UX/UI)
 
-### Backend
+---
+
+# 🚀 Tecnologías utilizadas
+
+## Frontend
+
+- React
+- React Router
+- Axios
+- Context API
+- Hooks personalizados
+- CSS3
+
+## Backend
 
 - Node.js
 - Express
-- MongoDB Atlas / Mongoose
 - JWT
-- bcryptjs
-- fs + csv-parser para semillas desde CSV
-- Multer + Cloudinary opcional para subida de imágenes con `form-data`
-- Helmet, CORS y Morgan
+- bcrypt
+- Multer
+- Cloudinary
 
-### Frontend
+## Almacenamiento
 
-- React + Vite
-- React Router DOM
-- Context API
-- Hooks avanzados: `useReducer`, `useMemo`, `useCallback`
-- Custom hooks: `useFetch`, `useClassFilters`
-- Axios
-- CSS modular centralizado con variables globales en `style.css`
-- Lucide React para iconos
+Para este proyecto se ha utilizado una base de datos local basada en archivos JSON.
 
-## Colecciones y relaciones
+Los datos son generados automáticamente a partir de archivos CSV mediante un proceso de seed.
 
-La base de datos se genera desde el Excel incluido en:
+---
 
-`backend/src/data/reservafit_database.xlsx`
+# 👥 Funcionalidades
 
-También se incluyen los CSV descargados desde ese Excel:
+## Usuarios
 
-- `users.csv`
-- `instructors.csv`
-- `classes.csv`
-- `bookings.csv`
+- Registro de usuarios
+- Inicio de sesión
+- Autenticación JWT
+- Avatar mediante Cloudinary
+- Perfil de usuario
+- Reserva de clases
+- Cancelación de reservas
+- Visualización de reservas
 
-Colecciones principales:
+## Administración
 
-1. `users`: usuarios con rol `user` o `admin`.
-2. `instructors`: instructores deportivos.
-3. `fitnessclasses`: clases deportivas relacionadas con un instructor.
-4. `bookings`: reservas relacionadas con un usuario y una clase.
+- Gestión de usuarios
+- Cambio de roles
+- Eliminación de usuarios
+- Gestión completa de clases
 
-El proyecto cumple el requisito de tener mínimo dos colecciones relacionadas aparte de usuarios: `instructors`, `fitnessclasses` y `bookings`.
+## Clases
 
-## Datos de acceso demo
+- Catálogo de clases
+- Filtrado por categoría
+- Filtrado por nivel
+- Búsqueda por nombre
+- Visualización del detalle
+- Imágenes alojadas en Cloudinary
 
-Usuario administrador:
+---
 
-```txt
-email: admin@reservafit.com
-password: 123456
+# 📂 Estructura del proyecto
+
+```
+fullstack_final_project
+
+frontend/
+│
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── hooks/
+│   ├── pages/
+│   ├── api/
+│   └── styles/
+
+backend/
+│
+├── src/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── routes/
+│   ├── utils/
+│   ├── db/
+│   └── seeds/
 ```
 
-Usuarios normales de prueba:
+---
 
-```txt
-email: user1@reservafit.com
-password: 123456
+# 📊 Generación de datos
+
+Los datos iniciales del proyecto se generan automáticamente a partir de varios archivos CSV:
+
+- users.csv
+- instructors.csv
+- classes.csv
+- bookings.csv
+
+El script de seed transforma dichos archivos en una base de datos JSON utilizada por la aplicación.
+
 ```
-
-## Instalación
-
-Desde la raíz del proyecto:
-
-```bash
-npm run install:all
-```
-
-Configura variables de entorno.
-
-Backend:
-
-```bash
-cp backend/.env.example backend/.env
-```
-
-Frontend:
-
-```bash
-cp frontend/.env.example frontend/.env
-```
-
-Edita `backend/.env` con tu conexión real de MongoDB Atlas:
-
-```env
-PORT=4000
-MONGO_URI=mongodb+srv://USER:PASSWORD@cluster.mongodb.net/reservafit
-JWT_SECRET=change_this_secret
-CLIENT_URL=http://localhost:5173
-```
-
-Cloudinary es opcional. Si quieres usar subida real de imágenes, rellena también:
-
-```env
-CLOUDINARY_CLOUD_NAME=
-CLOUDINARY_API_KEY=
-CLOUDINARY_API_SECRET=
-```
-
-## Semilla de base de datos
-
-La semilla lee los CSV con `fs.createReadStream` y publica los datos en MongoDB.
-
-```bash
 npm run seed
 ```
 
-## Ejecución local
+---
 
-Backend:
+# ⚙️ Instalación
 
-```bash
-npm run dev:backend
+## Backend
+
+```
+cd backend
+
+npm install
+
+npm run seed
+
+npm run dev
 ```
 
-Frontend:
+Servidor:
 
-```bash
-npm run dev:frontend
+```
+http://localhost:4000
 ```
 
-URLs locales:
+---
 
-- Frontend: `http://localhost:5173`
-- Backend: `http://localhost:4000`
+## Frontend
 
-## Rutas principales del backend
+```
+cd frontend
 
-### Auth
+npm install
 
-- `POST /api/auth/register`
-- `POST /api/auth/login`
-- `GET /api/auth/me`
-
-### Clases
-
-- `GET /api/classes`
-- `GET /api/classes/:id`
-- `POST /api/classes` admin
-- `PUT /api/classes/:id` admin
-- `DELETE /api/classes/:id` admin
-
-### Reservas
-
-- `POST /api/bookings` usuario logueado
-- `GET /api/bookings/mine` usuario logueado
-- `PATCH /api/bookings/:id/cancel` usuario logueado
-- `GET /api/bookings` admin
-
-### Usuarios
-
-- `GET /api/users` admin
-- `PATCH /api/users/:id/role` admin
-- `DELETE /api/users/:id` usuario propietario o admin
-
-## Arquitectura React
-
-```txt
-frontend/src
-├── api
-├── components
-├── context
-├── hooks
-├── pages
-└── styles
+npm run dev
 ```
 
-La arquitectura separa responsabilidades:
+Aplicación:
 
-- `api`: cliente Axios centralizado.
-- `context`: autenticación global.
-- `hooks`: lógica reutilizable.
-- `components`: piezas reutilizables de interfaz.
-- `pages`: pantallas principales.
-- `styles`: variables, layout, cards, formularios y responsive.
+```
+http://localhost:5173
+```
 
-## UX/UI
+---
 
-La interfaz se ha planteado para ser directa:
+# 🔐 Variables de entorno
 
-- Home con propuesta de valor clara.
-- Catálogo filtrable por búsqueda, categoría y nivel.
-- Cards reutilizables con información esencial.
-- Detalle de clase con CTA de reserva.
-- Dashboard de reservas del usuario.
-- Panel admin con resumen de usuarios y reservas.
-- Diseño responsive.
+Crear un archivo `.env` dentro del backend:
 
-## Despliegue recomendado
+```
+PORT=4000
 
-Backend:
+JWT_SECRET=your_secret
 
-- Render
-- Railway
-- Fly.io
+CLIENT_URL=http://localhost:5173
 
-Frontend:
+CLOUDINARY_CLOUD_NAME=...
 
-- Netlify
-- Vercel
+CLOUDINARY_API_KEY=...
 
-Recuerda configurar en producción:
+CLOUDINARY_API_SECRET=...
+```
 
-- `MONGO_URI`
-- `JWT_SECRET`
-- `CLIENT_URL`
-- `VITE_API_URL`
+---
+
+# ☁️ Cloudinary
+
+Cloudinary se utiliza para almacenar:
+
+- Avatares de usuario
+- Imágenes de clases
+
+Las imágenes se suben mediante Multer y se almacenan automáticamente en la cuenta de Cloudinary.
+
+---
+
+# 🎨 Diseño
+
+La aplicación está diseñada siguiendo una interfaz moderna y responsive.
+
+Se utilizan:
+
+- Variables CSS
+- Componentes reutilizables
+- Diseño basado en tarjetas
+- Responsive Design
+- Navegación intuitiva
+
+---
+
+# 🔒 Seguridad
+
+- Contraseñas cifradas con bcrypt
+- JWT para autenticación
+- Rutas protegidas
+- Control de acceso mediante roles
+- Validación de formularios
+
+---
+
+# 📌 Mejoras futuras
+
+- Calendario de reservas
+- Pago online
+- Notificaciones por correo
+- Valoraciones de clases
+- Chat con instructores
+- Panel de estadísticas avanzado
+
+---
+
+# 👨‍💻 Autor
+
+**Santiago Garcés Muñoz**
