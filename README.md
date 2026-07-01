@@ -1,208 +1,295 @@
-# ReservaFit - Proyecto FullStack Final
+# ReservaFit - Proyecto Final Full Stack
 
-ReservaFit es una aplicación FullStack para centralizar reservas de clases deportivas locales. Está pensada para usuarios que quieren descubrir actividades cerca de ellos y para pequeños centros/instructores que necesitan gestionar horarios, cupos y reservas sin depender de mensajes sueltos.
+ReservaFit es una aplicación Full Stack desarrollada como proyecto final del Máster Full Stack Development.
+
+La plataforma permite a los usuarios descubrir actividades deportivas, consultar información detallada sobre las clases disponibles y gestionar reservas de forma sencilla. Además, incorpora un panel de administración para la gestión de usuarios, actividades y reservas.
+
+---
+
+## Demo
+
+### Frontend
+
+https://reservafit-ciawcjgri-santibrimstones-projects.vercel.app/
+
+### Backend
+
+https://reservafit.onrender.com
+
+---
+
+## Objetivo del proyecto
+
+Muchos centros deportivos gestionan actualmente sus reservas mediante llamadas, WhatsApp o herramientas dispersas que dificultan el control de aforo y la organización de actividades.
+
+ReservaFit nace para centralizar este proceso mediante una plataforma web moderna que permite:
+
+- Consultar actividades deportivas.
+- Gestionar reservas online.
+- Administrar usuarios y clases.
+- Controlar la disponibilidad de plazas.
+- Mejorar la experiencia de usuario.
+
+---
 
 ## Público objetivo
 
-- Personas que buscan entrenar de forma flexible.
-- Centros deportivos pequeños, estudios boutique e instructores independientes.
-- Administradores que necesitan consultar usuarios, clases y reservas.
+### Usuarios
 
-## Problema que resuelve
+Personas interesadas en:
 
-Muchos centros gestionan reservas por WhatsApp, llamadas o formularios poco conectados. Esto provoca duplicidades, falta de control de aforo y mala experiencia para el usuario. ReservaFit ofrece un catálogo filtrable, detalle de clase, reserva autenticada y panel de administración.
+- Fitness
+- Yoga
+- Cross Training
+- Pilates
+- Running
+- Actividades deportivas dirigidas
 
-## Tecnologías
+### Centros deportivos
+
+- Gimnasios locales
+- Estudios boutique
+- Entrenadores personales
+- Centros deportivos independientes
+
+### Administradores
+
+Usuarios con permisos de gestión para controlar:
+
+- Usuarios
+- Clases
+- Reservas
+- Contenido de la plataforma
+
+---
+
+## Tecnologías utilizadas
+
+### Frontend
+
+- React
+- Vite
+- React Router DOM
+- Axios
+- Context API
+- Hooks personalizados
+- CSS Modular
+- Lucide React
 
 ### Backend
 
 - Node.js
 - Express
-- JWT
+- JWT Authentication
 - bcryptjs
-- fs + csv-parser para semillas desde CSV
-- Multer + Cloudinary opcional para subida de imágenes con `form-data`
-- Helmet, CORS y Morgan
+- Multer
+- Cloudinary
+- Helmet
+- Morgan
+- CORS
 
-### Frontend
+### Gestión de datos
 
-- React + Vite
-- React Router DOM
-- Context API
-- Hooks avanzados: `useReducer`, `useMemo`, `useCallback`
-- Custom hooks: `useFetch`, `useClassFilters`
-- Axios
-- CSS modular centralizado con variables globales en `style.css`
-- Lucide React para iconos
+- CSV
+- Excel
+- fs
+- csv-parser
 
-## Colecciones y relaciones
+---
 
-La base de datos se genera desde el Excel incluido en:
-
-`backend/src/data/reservafit_database.xlsx`
-
-También se incluyen los CSV descargados desde ese Excel:
-
-- `users.csv`
-- `instructors.csv`
-- `classes.csv`
-- `bookings.csv`
-
-Colecciones principales:
-
-1. `users`: usuarios con rol `user` o `admin`.
-2. `instructors`: instructores deportivos.
-3. `fitnessclasses`: clases deportivas relacionadas con un instructor.
-4. `bookings`: reservas relacionadas con un usuario y una clase.
-
-El proyecto cumple el requisito de tener mínimo dos colecciones relacionadas aparte de usuarios: `instructors`, `fitnessclasses` y `bookings`.
-
-## Datos de acceso demo
-
-Usuario administrador:
+## Arquitectura del proyecto
 
 ```txt
-email: admin@reservafit.com
-password: 123456
+proyectofinal/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── api/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── hooks/
+│   │   ├── pages/
+│   │   └── styles/
+│   └── README.md
+│
+├── backend/
+│   ├── src/
+│   │   ├── api/
+│   │   │   ├── controllers/
+│   │   │   └── routes/
+│   │   ├── middleware/
+│   │   ├── config/
+│   │   ├── utils/
+│   │   └── data/
+│   └── README.md
+│
+└── README.md
 ```
 
-Usuarios normales de prueba:
+---
+
+## Funcionalidades principales
+
+### Gestión de usuarios
+
+- Registro de usuarios.
+- Inicio de sesión mediante JWT.
+- Gestión de perfil.
+
+
+### Gestión de actividades
+
+- Consulta de clases deportivas.
+- Visualización de detalles.
+- Filtrado por categoría.
+- Filtrado por nivel.
+- Búsqueda por nombre.
+
+### Gestión de reservas
+
+- Reserva de plazas.
+- Consulta de reservas activas.
+- Cancelación de reservas.
+- Control de aforo.
+
+### Administración
+
+- Gestión de usuarios.
+- Gestión de actividades.
+- Gestión de reservas.
+
+---
+
+## Base de datos y relaciones
+
+La información inicial se genera a partir de:
 
 ```txt
-email: user1@reservafit.com
-password: 123456
+backend/src/data/reservafit_database.xlsx
 ```
 
-## Instalación
+y sus correspondientes archivos CSV:
 
-Desde la raíz del proyecto:
+- users.csv
+- classes.csv
+- bookings.csv
+
+### Colecciones principales
+
+| Colección | Descripción |
+|------------|------------|
+| users | Usuarios de la aplicación |
+| fitnessclasses | Clases deportivas |
+| bookings | Reservas realizadas |
+
+Relaciones implementadas:
+
+```txt
+User
+ └── Booking
+        └── FitnessClass
+                 
+```
+
+---
+
+
+## Instalación local
+
+### Clonar repositorio
+
+```bash
+git clone https://github.com/SantiBrimstone/proyectofinal.git
+cd proyectofinal
+```
+
+### Instalar dependencias
 
 ```bash
 npm run install:all
 ```
 
-Configura variables de entorno.
+---
 
-Backend:
+## Variables de entorno
 
-```bash
-cp backend/.env.example backend/.env
-```
-
-Frontend:
-
-```bash
-cp frontend/.env.example frontend/.env
-```
-
-
+### Backend
 
 ```env
 PORT=4000
+JWT_SECRET=change_this_secret
+
+CLIENT_URL=http://localhost:5173
+
 CLOUDINARY_CLOUD_NAME=
 CLOUDINARY_API_KEY=
 CLOUDINARY_API_SECRET=
-JWT_SECRET=change_this_secret
-CLIENT_URL=http://localhost:5173
 ```
 
-## Semilla de base de datos
+### Frontend
 
-La semilla lee los CSV con `fs.createReadStream`
+```env
+VITE_API_URL=http://localhost:4000/api
+```
+
+---
+
+## Semilla de datos
 
 ```bash
 npm run seed
 ```
 
+La semilla utiliza:
+
+```txt
+fs.createReadStream()
+csv-parser
+```
+
+para generar los datos iniciales desde los archivos CSV.
+
+---
+
 ## Ejecución local
 
-Backend:
+### Backend
 
 ```bash
 npm run dev:backend
 ```
 
-Frontend:
+### Frontend
 
 ```bash
 npm run dev:frontend
 ```
 
-URLs locales:
-
-- Frontend: `http://localhost:5173`
-- Backend: `http://localhost:4000`
-
-## Rutas principales del backend
-
-### Auth
-
-- `POST /api/auth/register`
-- `POST /api/auth/login`
-- `GET /api/auth/me`
-
-### Clases
-
-- `GET /api/classes`
-- `GET /api/classes/:id`
-- `POST /api/classes` admin
-- `PUT /api/classes/:id` admin
-- `DELETE /api/classes/:id` admin
-
-### Reservas
-
-- `POST /api/bookings` usuario logueado
-- `GET /api/bookings/mine` usuario logueado
-- `PATCH /api/bookings/:id/cancel` usuario logueado
-- `GET /api/bookings` admin
-
-### Usuarios
-
-- `GET /api/users` admin
-- `PATCH /api/users/:id/role` admin
-- `DELETE /api/users/:id` usuario propietario o admin
-
-## Arquitectura React
-
-```txt
-frontend/src
-├── api
-├── components
-├── context
-├── hooks
-├── pages
-└── styles
-```
-
-La arquitectura separa responsabilidades:
-
-- `api`: cliente Axios centralizado.
-- `context`: autenticación global.
-- `hooks`: lógica reutilizable.
-- `components`: piezas reutilizables de interfaz.
-- `pages`: pantallas principales.
-- `styles`: variables, layout, cards, formularios y responsive.
-
-## UX/UI
-
-La interfaz se ha planteado para ser directa:
-
-- Home con propuesta de valor clara.
-- Catálogo filtrable por búsqueda, categoría y nivel.
-- Cards reutilizables con información esencial.
-- Detalle de clase con CTA de reserva.
-- Dashboard de reservas del usuario.
-- Diseño responsive.
-
-## Despliegue 
-
-Backend:
-
-- Render
-
+### URLs locales
 
 Frontend:
 
-- Vercel
+```txt
+http://localhost:5173
+```
 
+Backend:
 
+```txt
+http://localhost:4000
+```
+
+---
+
+## Documentación específica
+
+- Ver documentación Backend → `/backend/README.md`
+- Ver documentación Frontend → `/frontend/README.md`
+
+---
+
+## Autor
+
+**Santiago Garcés Muñoz**
+
+Proyecto desarrollado como entrega final del Máster Full Stack Development.
