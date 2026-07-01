@@ -18,7 +18,6 @@ Muchos centros gestionan reservas por WhatsApp, llamadas o formularios poco cone
 
 - Node.js
 - Express
-- MongoDB Atlas / Mongoose
 - JWT
 - bcryptjs
 - fs + csv-parser para semillas desde CSV
@@ -96,26 +95,20 @@ Frontend:
 cp frontend/.env.example frontend/.env
 ```
 
-Edita `backend/.env` con tu conexión real de MongoDB Atlas:
+
 
 ```env
 PORT=4000
-MONGO_URI=mongodb+srv://USER:PASSWORD@cluster.mongodb.net/reservafit
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
 JWT_SECRET=change_this_secret
 CLIENT_URL=http://localhost:5173
 ```
 
-Cloudinary es opcional. Si quieres usar subida real de imágenes, rellena también:
-
-```env
-CLOUDINARY_CLOUD_NAME=
-CLOUDINARY_API_KEY=
-CLOUDINARY_API_SECRET=
-```
-
 ## Semilla de base de datos
 
-La semilla lee los CSV con `fs.createReadStream` y publica los datos en MongoDB.
+La semilla lee los CSV con `fs.createReadStream`
 
 ```bash
 npm run seed
@@ -199,7 +192,6 @@ La interfaz se ha planteado para ser directa:
 - Cards reutilizables con información esencial.
 - Detalle de clase con CTA de reserva.
 - Dashboard de reservas del usuario.
-- Panel admin con resumen de usuarios y reservas.
 - Diseño responsive.
 
 ## Despliegue recomendado
@@ -215,9 +207,4 @@ Frontend:
 - Netlify
 - Vercel
 
-Recuerda configurar en producción:
 
-- `MONGO_URI`
-- `JWT_SECRET`
-- `CLIENT_URL`
-- `VITE_API_URL`

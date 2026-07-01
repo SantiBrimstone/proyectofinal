@@ -3,10 +3,10 @@ const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
 
-const authRoutes = require('./routes/authRoutes');
-const classRoutes = require('./routes/classRoutes');
-const bookingRoutes = require('./routes/bookingRoutes');
-const userRoutes = require('./routes/userRoutes');
+const authRoutes = require('./api/routes/authRoutes');
+const classRoutes = require('./api/routes/classRoutes');
+const bookingRoutes = require('./api/routes/bookingRoutes');
+const userRoutes = require('./api/routes/userRoutes');
 const { notFound, errorHandler } = require('./middleware/errorMiddleware');
 
 const app = express();
