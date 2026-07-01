@@ -194,17 +194,15 @@ La interfaz se ha planteado para ser directa:
 - Dashboard de reservas del usuario.
 - Diseño responsive.
 
-## Despliegue recomendado
+## Despliegue 
 
 Backend:
 
 - Render
-- Railway
-- Fly.io
+
 
 Frontend:
 
-- Netlify
 - Vercel
 
 
